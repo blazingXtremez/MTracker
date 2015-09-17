@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MTracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_service_status">serviceStatus</string>
+    <string name="title_activity_service_extra">serviceExtra</string>
+    <string name="title_activity_live_tracker">liveTracker</string>
+    <string name="title_activity_directions">directions</string>
+    <string name="title_activity_map_zoom">mapZoom</string>
+    <string name="title_activity_direction_list">directionList</string>
+    <string name="title_activity_direction_extra">directionExtra</string>
+</resources>

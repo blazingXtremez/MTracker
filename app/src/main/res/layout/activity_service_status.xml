@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.riteish.mtracker.serviceStatus"
+    android:id="@+id/layout"
+    android:background="#ffffff"
+    android:longClickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Service Alerts"
+        android:id="@+id/seralts"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#ffffff"
+        android:autoText="false"
+        android:textColor="#f60f03" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myList"
+        android:layout_below="@+id/seralts"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:scrollbars="none"
+        android:divider="#76d8f4"
+        android:dividerHeight="4px"
+        android:choiceMode="none" />
+
+
+</RelativeLayout>

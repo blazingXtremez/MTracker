@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+ <status>OK</status>
+ <route>
+  <summary></summary>
+  <leg>
+   <step>
+    <travel_mode>WALKING</travel_mode>
+    <start_location>
+     <lat>40.7044190</lat>
+     <lng>-73.9214686</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7066070</lat>
+     <lng>-73.9229130</lng>
+    </end_location>
+    <polyline>
+     <points>samwFdxdbM_D}CyApCyApC{AnCEH</points>
+    </polyline>
+    <duration>
+     <value>242</value>
+     <text>4 mins</text>
+    </duration>
+    <html_instructions>Walk to Jefferson St</html_instructions>
+    <distance>
+     <value>354</value>
+     <text>0.2 mi</text>
+    </distance>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>40.7044190</lat>
+      <lng>-73.9214686</lng>
+     </start_location>
+     <end_location>
+      <lat>40.7052160</lat>
+      <lng>-73.9206840</lng>
+     </end_location>
+     <polyline>
+      <points>samwFdxdbM_D}C</points>
+     </polyline>
+     <duration>
+      <value>81</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Head &lt;b&gt;northeast&lt;/b&gt; on &lt;b&gt;Suydam St&lt;/b&gt; toward &lt;b&gt;Wyckoff Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>111</value>
+      <text>364 ft</text>
+     </distance>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>40.7052160</lat>
+      <lng>-73.9206840</lng>
+     </start_location>
+     <end_location>
+      <lat>40.7066070</lat>
+      <lng>-73.9229130</lng>
+     </end_location>
+     <polyline>
+      <points>sfmwFfsdbMyApCyApC{AnCEH</points>
+     </polyline>
+     <duration>
+      <value>161</value>
+      <text>3 mins</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Wyckoff Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>243</value>
+      <text>0.2 mi</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+   </step>
+   <step>
+    <travel_mode>TRANSIT</travel_mode>
+    <start_location>
+     <lat>40.7066070</lat>
+     <lng>-73.9229130</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7328490</lat>
+     <lng>-73.9861220</lng>
+    </end_location>
+    <polyline>
+     <points>iomwFdaebMkBlDIPIRGPEPGRCPERCPARARAR?R?R@R@R`Gnp@JfA@L?J@L@L@L?L@L?L?L@L?N?L?L?NAN?L?L?J?N?L?L?L@L?L@L?L@L@N@L@LxAlMDd@@b@@`@C^CZEZIVMVMRQPUNUJYJ[H_@D{Fh@}SnBI@I?K@IBK@I@IBKBKBIBKBKBKDKBKDiNtFIDGBGDGFEDEFCFCHCFAJCH?J?J?L?JZdHrAb[BV@T@V@V?T@V@T?V@T?V?T?V?T?T?T?~C?NAL?NALANCLALCLELCLELELGLEJGLkQp\k{@|_BEHEHGJEJEJGJELELGJELGNELGNGNENwTpr@{J`[</points>
+    </polyline>
+    <duration>
+     <value>840</value>
+     <text>14 mins</text>
+    </duration>
+    <html_instructions>Subway towards 8 Av</html_instructions>
+    <distance>
+     <value>6863</value>
+     <text>4.3 mi</text>
+    </distance>
+    <transit_details>
+     <departure_stop>
+      <name>Jefferson St</name>
+      <location>
+       <lat>40.7066070</lat>
+       <lng>-73.9229130</lng>
+      </location>
+     </departure_stop>
+     <arrival_stop>
+      <name>3 Av</name>
+      <location>
+       <lat>40.7328490</lat>
+       <lng>-73.9861220</lng>
+      </location>
+     </arrival_stop>
+     <line>
+      <name>14 St-Canarsie Local</name>
+      <short_name>L</short_name>
+      <url>http://web.mta.info/nyct/service/pdf/tlcur.pdf</url>
+      <vehicle>
+       <name>Subway</name>
+       <type>SUBWAY</type>
+       <icon>//maps.gstatic.com/mapfiles/transit/iw2/6/subway.png</icon>
+      </vehicle>
+      <agency>
+       <name>MTA New York City Transit</name>
+       <url>http://www.mta.info/</url>
+       <phone>1 718-330-1234</phone>
+      </agency>
+      <icon>//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/L.png</icon>
+      <color>#a3a5a8</color>
+     </line>
+     <num_stops>8</num_stops>
+     <headsign>8 Av</headsign>
+     <departure_time>
+      <value>1432029210</value>
+      <text>5:53am</text>
+      <time_zone>America/New_York</time_zone>
+     </departure_time>
+     <arrival_time>
+      <value>1432030050</value>
+      <text>6:07am</text>
+      <time_zone>America/New_York</time_zone>
+     </arrival_time>
+    </transit_details>
+   </step>
+   <step>
+    <travel_mode>WALKING</travel_mode>
+    <start_location>
+     <lat>40.7328490</lat>
+     <lng>-73.9861220</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7389681</lat>
+     <lng>-73.9814324</lng>
+    </end_location>
+    <polyline>
+     <points>isrwFflqbMR_@rAiEYSi@_@eAs@}ByAuBuAuBwAsBuAuBqAsBwA}ByAeC}AwA_Ak@_@uAfE</points>
+    </polyline>
+    <duration>
+     <value>722</value>
+     <text>12 mins</text>
+    </duration>
+    <html_instructions>Walk to New York, NY 10010, USA</html_instructions>
+    <distance>
+     <value>983</value>
+     <text>0.6 mi</text>
+    </distance>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>40.7328490</lat>
+      <lng>-73.9861220</lng>
+     </start_location>
+     <end_location>
+      <lat>40.7323264</lat>
+      <lng>-73.9849539</lng>
+     </end_location>
+     <polyline>
+      <points>isrwFflqbMR_@rAiE</points>
+     </polyline>
+     <duration>
+      <value>68</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Head &lt;b&gt;southeast&lt;/b&gt; on &lt;b&gt;E 14th St&lt;/b&gt; toward &lt;b&gt;2nd Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>97</value>
+      <text>318 ft</text>
+     </distance>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>40.7323264</lat>
+      <lng>-73.9849539</lng>
+     </start_location>
+     <end_location>
+      <lat>40.7385414</lat>
+      <lng>-73.9804331</lng>
+     </end_location>
+     <polyline>
+      <points>aprwF|dqbMYSi@_@eAs@}ByAuBuAuBwAsBuAuBqAsBwA}ByAeC}AwA_Ak@_@</points>
+     </polyline>
+     <duration>
+      <value>578</value>
+      <text>10 mins</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;2nd Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>789</value>
+      <text>0.5 mi</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>40.7385414</lat>
+      <lng>-73.9804331</lng>
+     </start_location>
+     <end_location>
+      <lat>40.7389681</lat>
+      <lng>-73.9814324</lng>
+     </end_location>
+     <polyline>
+      <points>{vswFthpbMuAfE</points>
+     </polyline>
+     <duration>
+      <value>76</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;E 24th St&lt;/b&gt;&lt;div style=&quot;font-size:0.9em&quot;&gt;Destination will be on the left&lt;/div&gt;</html_instructions>
+     <distance>
+      <value>97</value>
+      <text>318 ft</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+   </step>
+   <duration>
+    <value>1805</value>
+    <text>30 mins</text>
+   </duration>
+   <distance>
+    <value>8200</value>
+    <text>5.1 mi</text>
+   </distance>
+   <start_location>
+    <lat>40.7044190</lat>
+    <lng>-73.9214686</lng>
+   </start_location>
+   <end_location>
+    <lat>40.7389681</lat>
+    <lng>-73.9814324</lng>
+   </end_location>
+   <start_address>Brooklyn, NY 11237, USA</start_address>
+   <end_address>New York, NY 10010, USA</end_address>
+   <departure_time>
+    <value>1432028968</value>
+    <text>5:49am</text>
+    <time_zone>America/New_York</time_zone>
+   </departure_time>
+   <arrival_time>
+    <value>1432030773</value>
+    <text>6:19am</text>
+    <time_zone>America/New_York</time_zone>
+   </arrival_time>
+  </leg>
+  <copyrights>Map data ©2015 Google</copyrights>
+  <overview_polyline>
+   <points>samwFdxdbM_D}CyApCuD`H{BhE_@jAOjACnApG~s@HlB@dFDx@bBnOBdAGz@Or@[j@g@`@o@V{@Ny[xCi@Fk@Jm@NmOdGa@VS^Ih@ZjI`Bd`@@tDAlEIx@Sv@[t@cnAb~B[n@w@rB}T`s@{J`[R_@rAiEYSoBsAsFoDiFmDmNaJcC_BuAfE</points>
+  </overview_polyline>
+  <warning>Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths.</warning>
+  <bounds>
+   <southwest>
+    <lat>40.7044190</lat>
+    <lng>-73.9861220</lng>
+   </southwest>
+   <northeast>
+    <lat>40.7389681</lat>
+    <lng>-73.9206840</lng>
+   </northeast>
+  </bounds>
+ </route>
+</DirectionsResponse>
