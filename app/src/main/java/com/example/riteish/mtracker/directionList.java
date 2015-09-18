@@ -86,6 +86,14 @@ public class directionList extends Activity {
             }
         });**/
 
+
+
+        // once the summary of the direction is loaded, one can click on it and
+        // load more information about the route
+
+        // setting a onClickListener for the list view
+
+
     }
 
     @Override
@@ -121,7 +129,6 @@ class myAdapter extends ArrayAdapter<MyDirections>{
     }
 
 
-
     ////getView overRide
     @Override
     public View getView(int position, View convertView,ViewGroup parent){
@@ -133,28 +140,24 @@ class myAdapter extends ArrayAdapter<MyDirections>{
         if(convertView == null){
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.dir_layout,parent,false);
         }
+
         // lookup data for textviews
-        TextView method = (TextView)convertView.findViewById(R.id.dirMedium);
+        //TextView method = (TextView)convertView.findViewById(R.id.dirMedium);
         TextView duration = (TextView)convertView.findViewById(R.id.dirDur);
         TextView info = (TextView)convertView.findViewById(R.id.dirInfo);
 
-        String mthd = dir.getMethod();
-
-        //String in;
-        //if (mthd.equals("TRANSIT")){
-        //info string
-        //    in = dir.getDistance() + " " + dir.getTrainName();
-        //}
-        //else{
-        //    in = " ";
-        //}
 
         // populating the data
 
-        method.setText(dir.getMethod());
+        //method.setText(dir.getMethod());
+
+        // the heading will just show the train name and the earliest time it will leave
+
         duration.setText(dir.getTrainName());
         info.setText(dir.getDepatureTime());
 
+        // note : implementing a future schedule where the user wiill provide the time and
+        // it will display the  train schedule for that time
 
         // return the completed view to be rendered
         return convertView;
